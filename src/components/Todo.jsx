@@ -164,7 +164,7 @@ function Todo() {
             </div>
 
             <ul className="space-y-4 max-h-[290px] overflow-y-auto pr-2 custom-scrollbar">
-              {todos.map((value) => (
+              {[...todos].reverse().map((value) => (
                 <li
                   key={value.id}
                   className={`p-4 rounded-xl flex items-center justify-between shadow-md transition-all duration-300 ${
