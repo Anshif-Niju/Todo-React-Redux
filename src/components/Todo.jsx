@@ -94,7 +94,7 @@ function Todo() {
 
             <div className="relative mt-4 ">
               <img
-                src="src\assets\Goat.png"
+                src="/Goat.png"
                 alt="Owl"
                 className="w-64 h-64 object-contain w-[500px] h-auto"
               />
